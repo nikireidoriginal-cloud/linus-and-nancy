@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linus and Nancy — A True Tale from the Panama Canal Zone</title>
+<meta name="description" content="The true story of a young girl and her pet capuchin monkey in the Panama Canal Zone. A beautifully illustrated children's book by Nancy Elida Baldwin Reid.">
+<meta name="keywords" content="children's book, Panama Canal Zone, capuchin monkey, picture book, true story, Nancy Baldwin Reid, Linus monkey, Balboa Heights">
+<meta property="og:title" content="Linus and Nancy — A True Tale from the Panama Canal Zone">
+<meta property="og:description" content="When Linus bit Nancy, she bit him right back. And that's how a young girl and a wild capuchin monkey became best friends in the Panama Canal Zone.">
+<meta property="og:type" content="book">
+<meta property="og:image" content="cover.jpg">
+<meta property="og:url" content="https://linusandnancy.com">
+<meta name="robots" content="index, follow">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Linus and Nancy — A True Tale from the Panama Canal Zone">
+<meta name="twitter:description" content="When Linus bit Nancy, she bit him right back. A beautifully illustrated true story from the Panama Canal Zone.">
+<meta name="twitter:image" content="cover.jpg">
+<link rel="canonical" href="https://linusandnancy.com">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐒</text></svg>">
+<link rel="preload" as="image" href="cover.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "Linus and Nancy: A True Tale from the Panama Canal Zone",
+  "author": {
+    "@type": "Person",
+    "name": "Nancy Elida Baldwin Reid"
+  },
+  "illustrator": {
+    "@type": "Person",
+    "name": "Yassy Duque"
+  },
+  "isbn": "979-8998775802",
+  "bookFormat": "Hardcover",
+  "numberOfPages": 36,
+  "genre": ["Children's Picture Book", "Non-Fiction", "True Story"],
+  "audience": {
+    "@type": "PeopleAudience",
+    "suggestedMinAge": 3
+  },
+  "description": "The true story of a young girl and her pet capuchin monkey in the Panama Canal Zone. Based on real events from the 1960s, this beautifully illustrated children's book follows Nancy and her mischievous monkey Linus through their adventures in Balboa Heights, Panama.",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "6",
+    "bestRating": "5"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "19.95",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.amazon.com/dp/B0F6KH3X2F"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Linus and Nancy based on a true story?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Linus and Nancy is based on the real childhood of Nancy Elida Baldwin Reid, who grew up with a pet capuchin monkey named Linus in the Panama Canal Zone during the 1960s."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What age group is Linus and Nancy for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Linus and Nancy is recommended for ages 3 and up. It's a 36-page hardcover picture book that's perfect for read-aloud time with young children, while older kids will love the true story and fun facts about Panama."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Panama Canal Zone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Panama Canal Zone was a U.S.-administered territory surrounding the Panama Canal from 1903 to 1979. American families like the Baldwins lived and worked there, creating a unique community where American and Panamanian cultures blended together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I buy Linus and Nancy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Linus and Nancy is available on Amazon as a hardcover for $19.95 with free shipping for Prime members. It has a perfect 5-star rating from all reviewers."
+      }
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&family=Caveat:wght@500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+img { height: auto; }
+
+:root {
+  --jungle: #2D5A3D;
+  --jungle-light: #3A7A52;
+  --sky: #87CEEB;
+  --sand: #F5E6D3;
+  --sand-light: #FFF8F0;
+  --warm: #E8A87C;
+  --coral: #E07A5F;
+  --navy: #1B3A5C;
+  --text: #2D3748;
+  --text-light: #718096;
+  --white: #FFFFFF;
+}
+
+html { scroll-behavior: smooth; }
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: var(--coral);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  z-index: 1000;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 8px 0;
+}
+.skip-link:focus { top: 0; }
+
+/* Sticky nav */
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(27,58,92,0.95);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  padding: 0.6rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.15);
+}
+.site-nav.visible { transform: translateY(0); }
+.site-nav-brand {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+}
+.site-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+.site-nav-links a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.site-nav-links a:hover { color: var(--white); }
+.nav-cta {
+  background: var(--coral);
+  color: var(--white) !important;
+  padding: 0.4rem 1.2rem;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.nav-cta:hover { background: #c9654a; }
+
+/* Focus styles for keyboard navigation */
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--coral);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+  background: var(--sand-light);
+  overflow-x: hidden;
+}
+
+/* ===== HERO ===== */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2D5A3D 0%, #1a4a2e 40%, #1B3A5C 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(circle at 20% 80%, rgba(135,206,235,0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(232,168,124,0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* Subtle leaf shapes */
+.hero::after {
+  content: '';
+  position: absolute;
+  top: -50px; right: -50px;
+  width: 300px; height: 300px;
+  background: radial-gradient(ellipse, rgba(58,122,82,0.3) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.hero-inner {
+  max-width: 1100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 4rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-book {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-book img {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 8px;
+  box-shadow:
+    0 25px 60px rgba(0,0,0,0.4),
+    0 0 0 1px rgba(255,255,255,0.05);
+  transform: rotate(-2deg);
+  transition: transform 0.4s ease;
+}
+
+.hero-book img:hover {
+  transform: rotate(0deg) scale(1.02);
+}
+
+.hero-text {
+  color: var(--white);
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.5rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.hero-badge span { color: #FFD700; }
+
+.hero-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2.5rem, 5vw, 3.8rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-style: italic;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.hero-desc {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 2rem;
+  max-width: 480px;
+  line-height: 1.8;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--coral);
+  color: var(--white);
+  padding: 1rem 2.25rem;
+  border-radius: 100px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(224,122,95,0.4);
+}
+
+.hero-cta:hover {
+  background: #c9654a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(224,122,95,0.5);
+}
+
+.hero-cta svg { width: 20px; height: 20px; }
+
+.hero-meta {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.9rem;
+}
+
+.hero-stars { color: #FFD700; letter-spacing: 2px; }
+
+/* ===== SECTION STYLES ===== */
+section { padding: 5rem 2rem; }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-label {
+  font-family: 'Caveat', cursive;
+  font-size: 1.3rem;
+  color: var(--jungle-light);
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+/* ===== THE STORY ===== */
+.story {
+  background: var(--white);
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.story-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.story-image img {
+  width: 100%;
+  display: block;
+}
+
+.story-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  color: var(--text);
+}
+
+.story-text .highlight {
+  font-family: 'Caveat', cursive;
+  font-size: 1.6rem;
+  color: var(--jungle);
+  line-height: 1.4;
+}
+
+/* ===== PHOTO SECTION ===== */
+.real-photo {
+  background: var(--sand);
+  text-align: center;
+}
+
+.photo-frame {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: var(--white);
+  border-radius: 4px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  transform: rotate(1deg);
+}
+
+.photo-frame img {
+  width: 100%;
+  display: block;
+}
+
+.photo-caption {
+  font-family: 'Caveat', cursive;
+  font-size: 1.4rem;
+  color: var(--text);
+  margin-top: 1rem;
+}
+
+/* ===== REVIEWS ===== */
+.reviews {
+  background: var(--jungle);
+  color: var(--white);
+}
+
+.reviews .section-label { color: rgba(255,255,255,0.6); }
+.reviews .section-title { color: var(--white); }
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.review-card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.review-stars {
+  color: #FFD700;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.review-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 1rem;
+}
+
+.review-author {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.5);
+  font-weight: 500;
+}
+
+/* ===== MAP / FUN FACTS ===== */
+.fun-facts {
+  background: var(--white);
+}
+
+.facts-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.facts-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.facts-image img {
+  width: 100%;
+  display: block;
+}
+
+.fact-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-start;
+}
+
+.fact-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background: var(--sand);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.fact-text {
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* ===== MID CTA ===== */
+.mid-cta {
+  background: var(--sand);
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+/* ===== FAMILY LEGACY ===== */
+.legacy {
+  background: var(--sand);
+}
+
+.legacy-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.legacy-photo {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+}
+
+.legacy-photo img {
+  width: 100%;
+  display: block;
+}
+
+.legacy-photo-caption {
+  font-family: 'Caveat', cursive;
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
+.legacy-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+}
+
+.legacy-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--jungle);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid var(--jungle-light);
+  padding-bottom: 2px;
+  transition: color 0.3s;
+}
+
+.legacy-link:hover { color: var(--jungle-light); }
+
+/* ===== ABOUT AUTHOR ===== */
+.about {
+  background: var(--white);
+}
+
+.about-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-content p {
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+}
+
+/* ===== FAQ ===== */
+.faq { background: var(--white); }
+
+.faq-list { max-width: 700px; margin: 2rem auto 0; }
+
+.faq-item { margin-bottom: 1.5rem; }
+
+.faq-item h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* ===== FINAL CTA ===== */
+.final-cta {
+  background: linear-gradient(135deg, #2D5A3D 0%, #1B3A5C 100%);
+  text-align: center;
+  padding: 5rem 2rem;
+  color: var(--white);
+}
+
+.final-cta .section-title {
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.final-cta p {
+  font-size: 1.15rem;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.final-cta .hero-cta {
+  font-size: 1.2rem;
+  padding: 1.1rem 2.5rem;
+}
+
+.price-note {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.5);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #1a2e1a;
+  color: rgba(255,255,255,0.4);
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.85rem;
+}
+
+footer a { color: rgba(255,255,255,0.6); text-decoration: none; }
+footer a:hover { color: var(--white); }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .hero-book { order: -1; }
+  .hero-book img { max-width: 280px; }
+  .hero-desc { margin-left: auto; margin-right: auto; }
+  .hero-meta { justify-content: center; }
+
+  .site-nav-links a:not(.nav-cta) { display: none; }
+
+  .story-grid,
+  .facts-layout,
+  .legacy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-frame { max-width: 90%; }
+
+  .reviews-grid { grid-template-columns: 1fr; }
+
+  section { padding: 3.5rem 1.5rem; }
+}
+</style>
+</head>
+<body>
+
+<a href="#story" class="skip-link">Skip to content</a>
+
+<nav class="site-nav" id="siteNav" aria-label="Main navigation">
+  <a href="#" class="site-nav-brand">Linus &amp; Nancy</a>
+  <ul class="site-nav-links">
+    <li><a href="#story">Story</a></li>
+    <li><a href="#photo">Photos</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#facts">Fun Facts</a></li>
+    <li><a href="https://www.amazon.com/dp/B0F6KH3X2F" class="nav-cta" target="_blank" rel="noopener">Buy on Amazon</a></li>
+  </ul>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-book">
+      <img src="cover.jpg" alt="Linus and Nancy book cover — A True Tale from the Panama Canal Zone" width="700" height="700" fetchpriority="high">
+    </div>
+    <div class="hero-text">
+      <div class="hero-badge"><span>&#9733;</span> 5.0 Stars on Amazon &mdash; "A treat for all!"</div>
+      <h1 class="hero-title">Linus and Nancy</h1>
+      <p class="hero-subtitle">A True Tale from the Panama Canal Zone</p>
+      <p class="hero-desc">When Nancy's dad brought home a capuchin monkey, nobody expected what would happen next. Linus bit Nancy. Nancy bit him right back. And just like that, a wild, wonderful friendship was born in 1960s Panama.</p>
+      <a href="https://www.amazon.com/dp/B0F6KH3X2F" class="hero-cta" target="_blank" rel="noopener">
+        Buy on Amazon
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+      <div class="hero-meta">
+        <span class="hero-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span>Hardcover &middot; 36 Pages</span>
+        <span>Ages 3+</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== THE STORY ===== -->
+<section class="story" id="story">
+  <div class="container">
+    <p class="section-label">The Story</p>
+    <h2 class="section-title">A young girl, a wild monkey, and the<br>adventure of a lifetime</h2>
+    <div class="story-grid">
+      <div class="story-image">
+        <img src="illustration.jpg" alt="Illustration of Nancy and Linus the capuchin monkey running together in front of the Panama Canal Zone administration building" width="1000" height="1000" loading="lazy">
+      </div>
+      <div class="story-text">
+        <p class="highlight">Sometimes the best friendships start with a bite.</p>
+        <p>In the lush Panama Canal Zone of the 1960s, young Nancy's father surprises the family with an unusual new pet &mdash; a mischievous capuchin monkey named Linus. Nancy's mother and her perfect French twist hairdo would never be the same.</p>
+        <p>After a rocky first meeting involving a surprise bite (and Nancy biting him right back), Linus decides cage life isn't for him. He escapes into the jungle &mdash; but keeps coming back every single morning, tapping on the kitchen window for his toast and jelly.</p>
+        <p>From crashing the Governor's fancy tea party to becoming the most famous troublemaker in Balboa Heights, Linus proves that the best friends really do come in unexpected packages.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REAL PHOTO ===== -->
+<section class="real-photo" id="photo">
+  <div class="container">
+    <p class="section-label">Based on a True Story</p>
+    <h2 class="section-title">The real Nancy and Linus.</h2>
+    <p style="max-width: 600px; margin: 0 auto 1rem; font-size: 1.1rem; color: var(--text-light);">This isn't fiction. Nancy Elida Baldwin Reid really did grow up with a pet capuchin monkey in the Panama Canal Zone. Here's the real Nancy with Linus.</p>
+    <div class="photo-frame">
+      <img src="real-photo.jpg" alt="Real black and white photograph of young Nancy Baldwin holding her pet capuchin monkey Linus and a puppy in the Panama Canal Zone, circa 1960s" width="657" height="421" loading="lazy">
+      <p class="photo-caption">The real Nancy and Linus &mdash; Panama Canal Zone, circa 1960s</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MID CTA ===== -->
+<div class="mid-cta">
+  <a href="https://www.amazon.com/dp/B0F6KH3X2F" class="hero-cta" target="_blank" rel="noopener">
+    Get the Book &mdash; $19.95
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+  </a>
+</div>
+
+<!-- ===== REVIEWS ===== -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <p class="section-label">What Readers Are Saying</p>
+    <h2 class="section-title">Perfect 5-Star Reviews</h2>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"Perfect gift for the kids. The first non-fiction children's book available with geographical and historical information about the Panama Canal told thru the eyes of a young girl and her capuchin monkey. A treat for all!"</p>
+        <p class="review-author">&mdash; M Albritton</p>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"What a sweet story and very educational, too. Reading about the antics of Linus makes me wish I had been raised in the Canal Zone!"</p>
+        <p class="review-author">&mdash; PHarris</p>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">6 out of 6 reviewers gave this book five stars. Parents, grandparents, teachers, and Canal Zone families all love the story of Linus and Nancy.</p>
+        <p class="review-author">&mdash; 100% Five-Star Rating on Amazon</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MAP / FUN FACTS ===== -->
+<section class="fun-facts" id="facts">
+  <div class="container">
+    <p class="section-label">Learn While You Read</p>
+    <h2 class="section-title">More than a story &mdash; it's a window into Panama</h2>
+    <div class="facts-layout">
+      <div class="facts-image">
+        <img src="map.jpg" alt="Beautifully illustrated map of Panama showing the Canal Zone, Atlantic Ocean, Pacific Ocean, and ships passing through the Panama Canal" width="1000" height="1000" loading="lazy">
+      </div>
+      <div>
+        <div class="fact-item">
+          <div class="fact-icon">&#127758;</div>
+          <p class="fact-text">The Panama Canal connects the Atlantic and Pacific Oceans, revolutionizing global trade and travel over 100 years ago.</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">&#127796;</div>
+          <p class="fact-text">The Canal Zone is home to toucans, blue butterflies, sloths, and of course &mdash; capuchin monkeys like Linus.</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">&#127853;</div>
+          <p class="fact-text">Families in Panama enjoy tropical fruits right from their own yards &mdash; mangos, papayas, and bananas grow everywhere.</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">&#128018;</div>
+          <p class="fact-text">Capuchin monkeys are one of the smartest primates in the Americas and can use tools to solve problems.</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">&#9729;&#65039;</div>
+          <p class="fact-text">Panama has only two seasons: dry season and rainy season, with spectacular thunderstorms rolling in.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAMILY LEGACY ===== -->
+<section class="legacy" id="legacy">
+  <div class="container">
+    <p class="section-label">A Family Rooted in Panama</p>
+    <h2 class="section-title">Three generations in the Canal Zone</h2>
+    <div class="legacy-grid">
+      <div>
+        <div class="legacy-photo">
+          <img src="family.jpg" alt="The Baldwin family formal portrait in Balboa Heights, Panama Canal Zone — Frank and Laura Baldwin with their five children and pet poodle, circa 1960s" width="800" height="637" loading="lazy">
+        </div>
+        <p class="legacy-photo-caption">The Baldwin family &mdash; Balboa Heights, Panama Canal Zone</p>
+      </div>
+      <div class="legacy-text">
+        <p>Nancy's story didn't begin with a monkey. It began with a family whose roots in Panama run generations deep. Her grandfather, Floyd H. Baldwin, arrived from Kentucky and became Comptroller General of Panama at age 24. Her father, Frank A. Baldwin, served 38 years with the Panama Canal Company, rising to become the Canal's Information Officer in the Governor's staff.</p>
+        <p>Frank met NASA astronauts including Neil Armstrong and John Glenn, navigated the 1964 riots, and raised five children in the Canal Zone &mdash; all while becoming a fixture of Panamanian civic life. Nancy's mother, Laura "Coqui" Garc&iacute;a de Paredes Baldwin, brought Panamanian warmth and culture to the family.</p>
+        <p>This is the world Nancy grew up in &mdash; a vibrant blend of American and Panamanian cultures, tropical adventure, and a very mischievous monkey named Linus.</p>
+        <a href="https://www.uflib.ufl.edu/spec/pcm/narratives/Baldwin_Memoirs2012.pdf" class="legacy-link" target="_blank" rel="noopener">
+          Read Frank A. Baldwin's memoirs at the University of Florida &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT THE AUTHOR ===== -->
+<section class="about" id="about">
+  <div class="container">
+    <p class="section-label">About the Author</p>
+    <h2 class="section-title">Nancy Elida Baldwin Reid</h2>
+    <div class="about-content">
+      <p>Nancy was born in Panama City in 1955 and raised in the Canal Zone, where she grew up with four brothers and an abundance of animal companions &mdash; from her beloved monkey Linus to parrots, horses, and the many dogs that would become a constant thread throughout her life.</p>
+      <p>A pioneering woman in technology, Nancy built an exceptional career at American Express, advancing from COBOL programmer to Director of Technology. Among her many accomplishments, she helped prepare the company's systems for the Y2K transition.</p>
+      <p>Now retired in Cocoa, Florida, near her beloved beach, she tends to her garden to support the local monarch butterfly population. Her generous spirit extends to all her loved ones, showing us that the best adventures, like her childhood tales with Linus, often begin close to home.</p>
+      <p style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; font-size: 0.95rem; color: var(--text-light);"><strong>Illustrated by Yassy Duque</strong> &mdash; a writer and illustrator from Panama whose overflowing imagination brings every story to life. Discover her work at <a href="https://www.instagram.com/yassyduque" target="_blank" rel="noopener" style="color: var(--jungle);">@yassyduque</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <p class="section-label">Common Questions</p>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Is Linus and Nancy based on a true story?</h3>
+        <p>Yes! Linus and Nancy is based on the real childhood of Nancy Elida Baldwin Reid, who grew up with a pet capuchin monkey named Linus in the Panama Canal Zone during the 1960s.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What age group is Linus and Nancy for?</h3>
+        <p>Linus and Nancy is recommended for ages 3 and up. It's a 36-page hardcover picture book that's perfect for read-aloud time with young children, while older kids will love the true story and fun facts about Panama.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What is the Panama Canal Zone?</h3>
+        <p>The Panama Canal Zone was a U.S.-administered territory surrounding the Panama Canal from 1903 to 1979. American families like the Baldwins lived and worked there, creating a unique community where American and Panamanian cultures blended together.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Where can I buy Linus and Nancy?</h3>
+        <p>Linus and Nancy is available on <a href="https://www.amazon.com/dp/B0F6KH3X2F" target="_blank" rel="noopener" style="color: var(--jungle); font-weight: 600;">Amazon as a hardcover for $19.95</a> with free shipping for Prime members. It has a perfect 5-star rating from all reviewers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="final-cta">
+  <div class="container">
+    <p class="section-label" style="color: rgba(255,255,255,0.5);">Ready to meet Linus?</p>
+    <h2 class="section-title">A friendship that started with a bite<br>and lasted a lifetime.</h2>
+    <p>Beautifully illustrated. Based on a true story. Perfect for readers ages 3 and up.</p>
+    <a href="https://www.amazon.com/dp/B0F6KH3X2F" class="hero-cta" target="_blank" rel="noopener">
+      Buy on Amazon &mdash; $19.95
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+    <p class="price-note">Hardcover &middot; 36 pages &middot; Free shipping with Prime</p>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>&copy; 2025 Linus and Nancy. Written by Nancy Elida Baldwin Reid. Illustrated by <a href="https://www.instagram.com/yassyduque" target="_blank" rel="noopener">Yassy Duque</a>.</p>
+  <p style="margin-top: 0.5rem;">Published with love in celebration of Nancy's 70th birthday.</p>
+</footer>
+
+<script>
+const nav = document.getElementById('siteNav');
+const hero = document.querySelector('.hero');
+const observer = new IntersectionObserver(([e]) => {
+  nav.classList.toggle('visible', !e.isIntersecting);
+}, { threshold: 0.1 });
+observer.observe(hero);
+</script>
+
+</body>
+</html>
