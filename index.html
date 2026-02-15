@@ -586,6 +586,33 @@ section { padding: 5rem 2rem; }
   background: var(--white);
 }
 
+.about-layout {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.author-photo {
+  flex-shrink: 0;
+  width: 220px;
+}
+
+.author-photo img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+}
+
+.author-photo-caption {
+  font-family: 'Caveat', cursive;
+  font-size: 1.15rem;
+  color: var(--text-light);
+  text-align: center;
+  margin-top: 0.75rem;
+}
+
 .about-content {
   max-width: 700px;
   margin: 0 auto;
@@ -683,6 +710,14 @@ footer a:hover { color: var(--white); }
   }
 
   .photo-frame { max-width: 90%; }
+
+  .about-layout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .author-photo { width: 180px; }
 
   .reviews-grid { grid-template-columns: 1fr; }
 
@@ -858,11 +893,17 @@ footer a:hover { color: var(--white); }
   <div class="container">
     <p class="section-label">About the Author</p>
     <h2 class="section-title">Nancy Elida Baldwin Reid</h2>
+    <div class="about-layout">
+      <div class="author-photo">
+        <img src="author.jpg" alt="Nancy Elida Baldwin Reid, author of Linus and Nancy" width="800" height="800" loading="lazy">
+        <p class="author-photo-caption">Nancy today</p>
+      </div>
     <div class="about-content">
       <p>Nancy was born in Panama City in 1955 and raised in the Canal Zone, where she grew up with four brothers and an abundance of animal companions &mdash; from her beloved monkey Linus to parrots, horses, and the many dogs that would become a constant thread throughout her life.</p>
       <p>A pioneering woman in technology, Nancy built an exceptional career at American Express, advancing from COBOL programmer to Director of Technology. Among her many accomplishments, she helped prepare the company's systems for the Y2K transition.</p>
       <p>Now retired in Cocoa, Florida, near her beloved beach, she tends to her garden to support the local monarch butterfly population. Her generous spirit extends to all her loved ones, showing us that the best adventures, like her childhood tales with Linus, often begin close to home.</p>
       <p style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; font-size: 0.95rem; color: var(--text-light);"><strong>Illustrated by Yassy Duque</strong> &mdash; a writer and illustrator from Panama whose overflowing imagination brings every story to life. Discover her work at <a href="https://www.instagram.com/yassyduque" target="_blank" rel="noopener" style="color: var(--jungle);">@yassyduque</a>.</p>
+    </div>
     </div>
   </div>
 </section>
